@@ -18,6 +18,10 @@ class MainActivity : AppCompatActivity() {
 
 
         }
+        minusButton.setOnClickListener {
+            number = number - 1
+            numberTextView.text = number.toString()
+        }
 
 
 
